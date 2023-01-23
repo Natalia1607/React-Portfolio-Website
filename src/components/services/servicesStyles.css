@@ -18,6 +18,10 @@
     cursor: default;
 }
 
+.services:hover li{
+    color: var(--color-white);
+}
+
 .service__head {
     background: var(--color-primary);
     padding: 2rem;

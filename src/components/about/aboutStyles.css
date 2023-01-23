@@ -45,6 +45,10 @@
     cursor: default;
 }
 
+.about__card:hover h5 {
+    color: var(--color-white);
+}
+
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;

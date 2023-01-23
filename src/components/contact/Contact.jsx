@@ -19,8 +19,8 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <FaTelegramPlane className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Telegram</h5>
+            <h4>Telegram</h4>
+            <h5>@natalia_ksno</h5>
             <a href="https://t.me/natalia_ksno" target='_blank'>Send a message</a>
           </article>
         </div>

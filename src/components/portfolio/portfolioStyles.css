@@ -17,6 +17,10 @@
     background: transparent;
 }
 
+.portfolio__item:hover h3 {
+    color: var(--color-white);
+}
+
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
@@ -30,6 +34,18 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__item-cta .btn {
+    color: var(--color-bg);
+}
+
+.portfolio__item:hover .portfolio__item-cta .btn  {
+    color: var(--color-white);
+}
+
+.portfolio__item:hover .portfolio__item-cta .btn:hover {
+    color: var(--color-bg);
 }
 
 /* media */
